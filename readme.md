@@ -3,17 +3,23 @@
 ## Objectives
 
 * Write object literals and get values of that objects properties
-* Practice instantiation of objects using JS
-* Practice pseudo classes
+* Practice instantiation of objects using JavaScript
+* Practice pseudo-classes
 * Create methods
 * Practice class inheritance
 
 ## Object Literals, Pseudo Classes and methods
 
-1. Write 5 object literals, have them named person1-person5\. Give each a name property and have this be a name of a friend or family member. Then give each one a second property, sayHello, which is a function that will console log the string `“Hello! My name is \_\_\_\_\_\_\_\_”`.
+1. Write 5 object literals, have them named person1 - person5\. Give each a name property and have this be a name of a friend or family member. Then give each one a second property, sayHello, which is a function that will log a string to the console like this:
+```js
+Hello! My name is \_\_\_.
+```
 2. Call the sayHello function on each object and check the console for a response.
 This seems kind of repetitive doesn't it? Yeah, let’s practice some pseudo classes. Create a constructor function that will take a name, city, and age. *(Remember: Pseudo classes look like functions but are named with starting with a capital letter)*.
-3. Write a method that will print a string similar to this `“Hey! My name is \_\_\_ I am \_\_ years old and live in \_\_”`.
+3. Write a method that will log a string to the console like this:  
+```js
+Hey! My name is \_\_\_ I am \_\_\_ years old and live in \_\_\_.
+```
 4. Create 5 instances of the same friends from step 1, except this time use the pseudo class and method we just created.
 5. Using the ES6 syntax makes object oriented programming in javascript much easier to understand. Let’s use the ES6 syntax and create the same class that we just did. *(Hint: ES6 classes are not made using a constructor function, they use a keyword: class. They have a constructor which is used to take in the parameters name, city, and age. And methods will not need to be prototypes!)*.
 
