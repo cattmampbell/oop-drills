@@ -2,11 +2,11 @@
 
 ## Objectives
 
-1. Write object literals and get values of that objects properties
-2. Practice instantiation of objects using JavaScript
-3. Practice pseudo-classes
-4. Create methods
-5. Practice class inheritance
+1. Write object literals and get values of that objects properties.
+2. Practice instantiation of objects using JavaScript.
+3. Practice pseudo-classes.
+4. Create methods.
+5. Practice class inheritance.
 
 ## Object Literals, Pseudo Classes and methods
 
@@ -14,7 +14,7 @@
     * Give each a name property and have this be a name of a friend or family member.  
     * Then give each one a second property, `sayHello`, which is a function that will log a string to the console like this:
 ```js
-Hello! My name is \_\_\_.
+Hello! My name is ___.
 ```
 2. Call the `sayHello()` function on each object and check the console.
     * This seems kind of repetitive doesn't it?  
@@ -23,7 +23,7 @@ Hello! My name is \_\_\_.
     * **Remember**: Pseudo-classes look like functions, but are named with starting with a capital letter.
 3. Write a method that will log a string to the console like this:  
 ```js
-Hey! My name is \_\_\_ I am \_\_\_ years old and live in \_\_\_.
+Hey! My name is ___ I am ___ years old and live in ___.
 ```
 4. Create 5 instances of the same friends from earlier, except this time use the pseudo-class and `sayHello()` method we just created.
 5. Using the ES6 syntax makes object oriented programming in Javascript much easier to understand.  
@@ -40,9 +40,9 @@ Let’s use the ES6 syntax and create the same class that we just did.
     * So to keep it simple lets have this vehicle class construct an object that only has the properties manufacturer and number of wheels.
 
 2. Include a method called `aboutVehicle`, have it log a string to the console which states the following:
-    * What type of vehicle it is
-    * Who made it
-    * How many wheels it has
+    * What type of vehicle it is.
+    * Who made it.
+    * How many wheels it has.
 
 3. Trucks are vehicles, they have wheels.  
     * So let’s create a vehicle class that inherits the property of wheels from vehicle, but trucks have doors (unlike motorcycles) and they have a truck bed. 
