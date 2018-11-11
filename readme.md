@@ -46,7 +46,7 @@ Let’s use the ES6 syntax and create the same class that we just did.
 
 3. Trucks are vehicles, they have wheels.  
     * So let’s create a vehicle class that inherits the property of wheels from vehicle, but trucks have doors (unlike motorcycles) and they have a truck bed. 
-    * So let’s add a number of doors property to this object as well as a boolean they it is true, it has a truck bed.
+    * So let’s add a number of doors property to this object as well as a boolean so that if the value is true, it has a truck bed.
 
 4. Now sedans are vehicles also, but they don’t have a truck bed (we are ignoring the fact El Caminos broke this rule), they do have doors as well as 4 wheels. 
     * So to practice inheritance, lets just say sedans are vehicles, they aren’t trucks because they don’t have a truck bed but they get good gas mileage. 
